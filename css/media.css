@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 1770px){
     header{
         height: 80px;
@@ -22,8 +24,15 @@
         font-size: 45px;
     }
     .weather_image{
-        width: 300px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
+        right: 350px;
+    }
+    .map{
+        top: 50px;
+        right: 700px;
+        width: 1000px;
+        height: 680px;
     }
 
     .cities{
@@ -32,7 +41,63 @@
         font-size: 20px;
     }
 }
+@media screen and (max-width: 2200px){
+    .map{
+        top: 50px;
+        right: 200px;
+        width: 1000px;
+        height: 680px;
+    }
+}
 
+@media screen and (max-width: 1775px){
+    .map{
+        top: 50px;
+        right: 400px;
+        width: 800px;
+        height: 540px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .map{
+        top: 20px;
+        right: 200px;
+        width: 800px;
+        height: 540px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .map{
+        top: 100px;
+        right: 200px;
+        width: 600px;
+        height: 420px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .map{
+        top: 100px;
+        right: 150px;
+        width: 520px;
+        height: 360px;
+    }
+}
+@media screen and (max-width: 950px){
+    .map{
+        top: 100px;
+        right: 80px;
+        width: 430px;
+        height: 290px;
+    }
+}
+@media screen and (max-width: 800px){
+    .map{
+        top: 100px;
+        right: 80px;
+        width: 340px;
+        height: 230px;
+    }
+}
 @media screen and (max-width: 750px){
     .wrapper{
         width: 100%;
@@ -56,13 +121,12 @@
     .description{
         font-size: 15px;
     }
-    .weather_image{
-        width: 100px;
-        height: 100px;
-    }
 
     .cities{
         right: 20px;
+    }
+    .weather_image{
+        right: 100px;
     }
 
 }
@@ -95,16 +159,28 @@
         font-size: 15px;
         padding-left: 20px;
     }
-    .weather_image{
-        width: 70px;
-        height: 70px;
-        top: 20px;
-        right: 20px;
-    }
 
     .cities{
         top: 30px;
         left: 40px;
     }
+}
 
+@media screen and (max-width: 660px){
+    .map{
+        top: 100px;
+        right: 50px;
+        width: 280px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 550px){
+    .map{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    footer div{
+        font-size: 10px;
+    }
 }

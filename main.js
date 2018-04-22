@@ -130,7 +130,7 @@ function weatherDisplay(response){
 
     var weather_image = document.createElement('div');
     weather_image.classList.add('weather_image');
-    weather_block.append(weather_image);
+    weather_description.append(weather_image);
     // debugger;
     if(weather.icon == '13n'){
     weather_image.style.backgroundImage = "url('icons/night_snow.png')";
