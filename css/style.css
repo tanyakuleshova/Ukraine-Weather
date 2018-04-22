@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(102,136,207); */
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(66, 134, 244, 0.7);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.content{
+    position: relative;
+}
+
+.cities{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 245px;
+    font-family: 'Kanit', sans-serif;
+    visibility: hidden;
+}
+.weather_container{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-family: 'Kanit', sans-serif;
+    width: 550px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.description{
+    padding: 10px 0 0 45px;
+    font-size: 22px;
+}
+
+.description::first-letter{
+    text-transform: uppercase;
+}
+
+
+.weather_table{
+    padding: 15px 0 40px 45px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.weather_table td, tr{
+    border: 0;
+}
+
+.weather_table td{
+    padding: 0 15px 0 0;
+}
+
+.city{
+    padding: 40px 0 0 45px;
+    font-size: 35px;
+}
+
+.temp{
+    font-size: 35px;
+}
+
+.weather_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(66, 134, 244);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 50px 0 0;
+    font-family: 'Kanit', sans-serif;  
+}

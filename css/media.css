@@ -1,0 +1,110 @@
+@media screen and (min-width: 1770px){
+    header{
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .weather_container{
+        width: 800px;
+    }
+    .weather_table{
+        font-size: 45px;
+    }
+
+    .city{
+        font-size: 70px;
+    }
+    
+    .temp{
+        font-size: 70px;
+    }
+    .description{
+        font-size: 45px;
+    }
+    .weather_image{
+        width: 300px;
+        height: 300px;
+    }
+
+    .cities{
+        width: 400px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .wrapper{
+        width: 100%;
+    }
+
+    .weather_container{
+        width: 300px;
+        left: 20px;
+    }
+    .weather_table{
+        font-size: 15px;
+    }
+
+    .city{
+        font-size: 30px;
+    }
+    
+    .temp{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .weather_image{
+        width: 100px;
+        height: 100px;
+    }
+
+    .cities{
+        right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .wrapper{
+        width: 100%;
+    }
+
+    .weather_container{
+        width: 250px;
+        top: 100px;
+        left: 40px;
+
+    }
+    .weather_table{
+        font-size: 15px;
+        padding: 15px 0 20px 20px;
+    }
+
+    .city{
+        font-size: 20px;
+        padding: 20px 0 0 20px;
+    }
+    
+    .temp{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .weather_image{
+        width: 70px;
+        height: 70px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .cities{
+        top: 30px;
+        left: 40px;
+    }
+
+}
