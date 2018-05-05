@@ -1,186 +1,30 @@
 
-
-@media screen and (min-width: 1770px){
-    header{
-        height: 80px;
-        font-size: 30px;
-    }
-
-    .weather_container{
-        width: 800px;
-    }
-    .weather_table{
-        font-size: 45px;
-    }
-
-    .city{
-        font-size: 70px;
-    }
-    
-    .temp{
-        font-size: 70px;
-    }
-    .description{
-        font-size: 45px;
-    }
-    .weather_image{
-        width: 100px;
-        height: 100px;
-        right: 350px;
-    }
-    .map{
-        top: 50px;
-        right: 700px;
-        width: 1000px;
-        height: 680px;
-    }
-
-    .cities{
-        width: 400px;
-        height: 60px;
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 2200px){
-    .map{
-        top: 50px;
-        right: 200px;
-        width: 1000px;
-        height: 680px;
-    }
-}
-
-@media screen and (max-width: 1775px){
-    .map{
-        top: 50px;
-        right: 400px;
-        width: 800px;
-        height: 540px;
-    }
-}
-@media screen and (max-width: 1500px){
-    .map{
-        top: 20px;
-        right: 200px;
-        width: 800px;
-        height: 540px;
-    }
-}
-@media screen and (max-width: 1300px){
-    .map{
-        top: 100px;
-        right: 200px;
-        width: 600px;
-        height: 420px;
-    }
-}
-@media screen and (max-width: 1100px){
-    .map{
-        top: 100px;
-        right: 150px;
-        width: 520px;
-        height: 360px;
-    }
-}
-@media screen and (max-width: 950px){
-    .map{
-        top: 100px;
-        right: 80px;
-        width: 430px;
-        height: 290px;
-    }
-}
-@media screen and (max-width: 800px){
-    .map{
-        top: 100px;
-        right: 80px;
-        width: 340px;
-        height: 230px;
-    }
-}
-@media screen and (max-width: 750px){
-    .wrapper{
-        width: 100%;
-    }
-
-    .weather_container{
-        width: 300px;
-        left: 20px;
-    }
-    .weather_table{
-        font-size: 15px;
-    }
-
-    .city{
-        font-size: 30px;
-    }
-    
-    .temp{
-        font-size: 30px;
-    }
-    .description{
-        font-size: 15px;
-    }
-
-    .cities{
+@media screen and (max-width: 1024px){
+    .map_container{
         right: 20px;
     }
-    .weather_image{
-        right: 100px;
-    }
+}
 
+@media screen and (max-width: 768px){
+    .map_container{
+        right: 20px;
+        top: 360px;
+    }
+    .map_title{
+        right: 50px;
+        top: 100px;
+    }
 }
 
 @media screen and (max-width: 425px){
-    .wrapper{
-        width: 100%;
-    }
-
-    .weather_container{
-        width: 250px;
-        top: 100px;
-        left: 40px;
-
-    }
-    .weather_table{
-        font-size: 15px;
-        padding: 15px 0 20px 20px;
-    }
-
-    .city{
-        font-size: 20px;
-        padding: 20px 0 0 20px;
-    }
-    
-    .temp{
-        font-size: 20px;
-    }
-    .description{
-        font-size: 15px;
-        padding-left: 20px;
-    }
-
-    .cities{
-        top: 30px;
-        left: 40px;
-    }
-}
-
-@media screen and (max-width: 660px){
-    .map{
-        top: 100px;
-        right: 50px;
-        width: 280px;
-        height: 190px;
-    }
-}
-@media screen and (max-width: 550px){
-    .map{
+    .map_container, .map_title{
         display: none;
     }
-}
-@media screen and (max-width: 400px){
-    footer div{
+    .weather_container{
+        left: 5px;
+    }
+    footer{
         font-size: 10px;
     }
 }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZGlhLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7SUFDSTtRQUNJLFlBQVk7S0FDZjtDQUNKOztBQUVEO0lBQ0k7UUFDSSxZQUFZO1FBQ1osV0FBVztLQUNkO0lBQ0Q7UUFDSSxZQUFZO1FBQ1osV0FBVztLQUNkO0NBQ0o7O0FBRUQ7SUFDSTtRQUNJLGNBQWM7S0FDakI7SUFDRDtRQUNJLFVBQVU7S0FDYjtJQUNEO1FBQ0ksZ0JBQWdCO0tBQ25CO0NBQ0oiLCJmaWxlIjoibWVkaWEuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMDI0cHgpe1xuICAgIC5tYXBfY29udGFpbmVye1xuICAgICAgICByaWdodDogMjBweDtcbiAgICB9XG59XG5cbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KXtcbiAgICAubWFwX2NvbnRhaW5lcntcbiAgICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICAgIHRvcDogMzYwcHg7XG4gICAgfVxuICAgIC5tYXBfdGl0bGV7XG4gICAgICAgIHJpZ2h0OiA1MHB4O1xuICAgICAgICB0b3A6IDEwMHB4O1xuICAgIH1cbn1cblxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDI1cHgpe1xuICAgIC5tYXBfY29udGFpbmVyLCAubWFwX3RpdGxle1xuICAgICAgICBkaXNwbGF5OiBub25lO1xuICAgIH1cbiAgICAud2VhdGhlcl9jb250YWluZXJ7XG4gICAgICAgIGxlZnQ6IDVweDtcbiAgICB9XG4gICAgZm9vdGVye1xuICAgICAgICBmb250LXNpemU6IDEwcHg7XG4gICAgfVxufSJdfQ== */

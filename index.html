@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ukraine-Weather</title>
     <link rel="stylesheet" href = "css/style.css">
+    <link rel="stylesheet" href = "css/select.city.map.css">
     <link rel="stylesheet" href = "css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet">
     
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/select.city.map.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -23,7 +25,35 @@
                 <option>Select a city</option>
             </select>
                 <div class="weather_container"></div>
-                <div class="map"></div>
+                <div class="map_title">Select a big city on the map =)</div>
+                <div class="map_container">
+                    <div class="Uzhgorod" data-cityId="690548"></div>
+                    <div class="Lviv" data-cityId="702550"></div>
+                    <div class="Ivano-Frankivsk" data-cityId="707471"></div>
+                    <div class="Chernivtsi" data-cityId="710719"></div>
+                    <div class="Ternopil" data-cityId="691650"></div>
+                    <div class="Rivne" data-cityId="695594"></div>
+                    <div class="Lutsk" data-cityId="702569"></div>
+                    <div class="Khmelnytskyy" data-cityId="706369"></div>
+                    <div class="Zhytomyr" data-cityId="686967"></div>
+                    <div class="Vinnytsya" data-cityId="689558"></div>
+                    <div class="Kiev" data-cityId="703448"></div>
+                    <div class="Cherkasy" data-cityId="710791"></div>
+                    <div class="Kirovohrad" data-cityId="705812"></div>
+                    <div class="Mykolayiv" data-cityId="700569"></div>
+                    <div class="Chernihiv" data-cityId="710735"></div>
+                    <div class="Sumy" data-cityId="692194"></div>
+                    <div class="Poltava" data-cityId="696643"></div>
+                    <div class="Dnipropetrovsk" data-cityId="709930"></div>
+                    <div class="Zaporizhzhya" data-cityId="687700"></div>
+                    <div class="Kherson" data-cityId="706448"></div>
+                    <div class="Krym" data-cityId="703883"></div>
+                    <div class="Kharkiv" data-cityId="706483"></div>
+                    <div class="Luhansk" data-cityId="702658"></div>
+                    <div class="Donetsk" data-cityId="709717"></div>
+                    <div class="Odessa-North" data-cityId="698740"></div>
+                    <div class="Odessa-South" data-cityId="698740"></div>
+                </div>
         </section>
         <footer>
             <div>Data is from the resource: "OpenWeatherMap"</div>

@@ -1,0 +1,262 @@
+.map_container{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    width: 671px;
+    height: 460px;
+    background: url(../images/map.png) -701px -10px;
+}
+.Uzhgorod{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.Lviv{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    cursor: pointer;
+}
+.Ivano-Frankivsk{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 200px;
+    left: 95px;
+    cursor: pointer;
+}
+.Chernivtsi{
+    height: 20px;
+    width: 45px;
+    position: absolute;
+    top: 235px;
+    left: 135px;
+    cursor: pointer;
+}
+.Ternopil{
+    height: 45px;
+    width: 35px;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    cursor: pointer;
+}
+.Rivne{
+    height: 70px;
+    width: 25px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+    cursor: pointer;
+}
+.Lutsk{
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    top: 65px;
+    left: 105px;
+    cursor: pointer;
+}
+.Khmelnytskyy{
+    height: 80px;
+    width: 35px;
+    position: absolute;
+    top: 145px;
+    left: 175px;
+    cursor: pointer;
+}
+.Zhytomyr{
+    height: 70px;
+    width: 55px;
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    cursor: pointer;
+}
+.Vinnytsya{
+    height: 70px;
+    width: 55px;
+    position: absolute;
+    top: 180px;
+    left: 225px;
+    cursor: pointer;
+}
+.Kiev{
+    height: 90px;
+    width: 55px;
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    cursor: pointer;
+}
+.Cherkasy{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    left: 290px;
+    -webkit-transform: rotate(-19.5deg);
+        -ms-transform: rotate(-19.5deg);
+            transform: rotate(-19.5deg);
+    cursor: pointer;
+}
+.Kirovohrad{
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    -webkit-transform: rotate(-14deg);
+        -ms-transform: rotate(-14deg);
+            transform: rotate(-14deg);
+    cursor: pointer;
+}
+.Mykolayiv{
+    height: 45px;
+    width: 75px;
+    position: absolute;
+    top: 270px;
+    left: 325px;
+    -webkit-transform: rotate(14deg);
+        -ms-transform: rotate(14deg);
+            transform: rotate(14deg);
+    cursor: pointer;
+}
+.Chernihiv{
+    height: 80px;
+    width: 70px;
+    position: absolute;
+    top: 40px;
+    left: 325px;
+    cursor: pointer;
+}
+.Sumy{
+    height: 50px;
+    width: 95px;
+    position: absolute;
+    top: 70px;
+    left: 390px;
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg);
+    cursor: pointer;
+}
+.Poltava{
+    height: 50px;
+    width: 85px;
+    position: absolute;
+    top: 145px;
+    left: 380px;
+    -webkit-transform: rotate(40deg);
+        -ms-transform: rotate(40deg);
+            transform: rotate(40deg);
+    cursor: pointer;
+}
+.Dnipropetrovsk{
+    height: 50px;
+    width: 85px;
+    position: absolute;
+    top: 215px;
+    left: 420px;
+    -webkit-transform: rotate(-40deg);
+        -ms-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+    cursor: pointer;
+}
+.Zaporizhzhya{
+    height: 70px;
+    width: 75px;
+    position: absolute;
+    top: 265px;
+    left: 460px;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    cursor: pointer;
+}
+.Kherson{
+    height: 50px;
+    width: 85px;
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    cursor: pointer;
+}
+.Krym{
+    height: 70px;
+    width: 105px;
+    position: absolute;
+    top: 360px;
+    left: 395px;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+            border-radius: 40px;
+}
+.Kharkiv{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    cursor: pointer;
+}
+
+.Luhansk{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    cursor: pointer;
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+}
+.Donetsk{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    left: 540px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+}
+.Odessa-North{
+    height: 100px;
+    width: 40px;
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+}
+.Odessa-South{
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    top: 340px;
+    left: 250px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+}
+/*# sourceMappingURL=data:application/json;base64,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aXR5Lm1hcC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFwX2NvbnRhaW5lcntcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogODBweDtcclxuICAgIHJpZ2h0OiAzMDBweDtcclxuICAgIHdpZHRoOiA2NzFweDtcclxuICAgIGhlaWdodDogNDYwcHg7XHJcbiAgICBiYWNrZ3JvdW5kOiB1cmwoLi4vaW1hZ2VzL21hcC5wbmcpIC03MDFweCAtMTBweDtcclxufVxyXG4uVXpoZ29yb2R7XHJcbiAgICBoZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDogMzBweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjE1cHg7XHJcbiAgICBsZWZ0OiA1MHB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uTHZpdntcclxuICAgIGhlaWdodDogNDBweDtcclxuICAgIHdpZHRoOiA0MHB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxNDBweDtcclxuICAgIGxlZnQ6IDcwcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLkl2YW5vLUZyYW5raXZza3tcclxuICAgIGhlaWdodDogMzBweDtcclxuICAgIHdpZHRoOiAzMHB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAyMDBweDtcclxuICAgIGxlZnQ6IDk1cHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLkNoZXJuaXZ0c2l7XHJcbiAgICBoZWlnaHQ6IDIwcHg7XHJcbiAgICB3aWR0aDogNDVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjM1cHg7XHJcbiAgICBsZWZ0OiAxMzVweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uVGVybm9waWx7XHJcbiAgICBoZWlnaHQ6IDQ1cHg7XHJcbiAgICB3aWR0aDogMzVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTYwcHg7XHJcbiAgICBsZWZ0OiAxMzBweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uUml2bmV7XHJcbiAgICBoZWlnaHQ6IDcwcHg7XHJcbiAgICB3aWR0aDogMjVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogNjBweDtcclxuICAgIGxlZnQ6IDE3MHB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5MdXRza3tcclxuICAgIGhlaWdodDogNTBweDtcclxuICAgIHdpZHRoOiA1NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiA2NXB4O1xyXG4gICAgbGVmdDogMTA1cHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLktobWVsbnl0c2t5eXtcclxuICAgIGhlaWdodDogODBweDtcclxuICAgIHdpZHRoOiAzNXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxNDVweDtcclxuICAgIGxlZnQ6IDE3NXB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5aaHl0b215cntcclxuICAgIGhlaWdodDogNzBweDtcclxuICAgIHdpZHRoOiA1NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiA5MHB4O1xyXG4gICAgbGVmdDogMjIwcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLlZpbm55dHN5YXtcclxuICAgIGhlaWdodDogNzBweDtcclxuICAgIHdpZHRoOiA1NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxODBweDtcclxuICAgIGxlZnQ6IDIyNXB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5LaWV2e1xyXG4gICAgaGVpZ2h0OiA5MHB4O1xyXG4gICAgd2lkdGg6IDU1cHg7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDEwMHB4O1xyXG4gICAgbGVmdDogMjgwcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLkNoZXJrYXN5e1xyXG4gICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgd2lkdGg6IDEwMHB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxODBweDtcclxuICAgIGxlZnQ6IDI5MHB4O1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoLTE5LjVkZWcpO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5LaXJvdm9ocmFke1xyXG4gICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgd2lkdGg6IDgwcHg7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDIyMHB4O1xyXG4gICAgbGVmdDogMzMwcHg7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtMTRkZWcpO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5NeWtvbGF5aXZ7XHJcbiAgICBoZWlnaHQ6IDQ1cHg7XHJcbiAgICB3aWR0aDogNzVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjcwcHg7XHJcbiAgICBsZWZ0OiAzMjVweDtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKDE0ZGVnKTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uQ2hlcm5paGl2e1xyXG4gICAgaGVpZ2h0OiA4MHB4O1xyXG4gICAgd2lkdGg6IDcwcHg7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDQwcHg7XHJcbiAgICBsZWZ0OiAzMjVweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uU3VteXtcclxuICAgIGhlaWdodDogNTBweDtcclxuICAgIHdpZHRoOiA5NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiA3MHB4O1xyXG4gICAgbGVmdDogMzkwcHg7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSg2MGRlZyk7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLlBvbHRhdmF7XHJcbiAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICB3aWR0aDogODVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTQ1cHg7XHJcbiAgICBsZWZ0OiAzODBweDtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKDQwZGVnKTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uRG5pcHJvcGV0cm92c2t7XHJcbiAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICB3aWR0aDogODVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjE1cHg7XHJcbiAgICBsZWZ0OiA0MjBweDtcclxuICAgIHRyYW5zZm9ybTogcm90YXRlKC00MGRlZyk7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuLlphcG9yaXpoemh5YXtcclxuICAgIGhlaWdodDogNzBweDtcclxuICAgIHdpZHRoOiA3NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAyNjVweDtcclxuICAgIGxlZnQ6IDQ2MHB4O1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoLTIwZGVnKTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uS2hlcnNvbntcclxuICAgIGhlaWdodDogNTBweDtcclxuICAgIHdpZHRoOiA4NXB4O1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAzMTBweDtcclxuICAgIGxlZnQ6IDM3NXB4O1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoLTIwZGVnKTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4uS3J5bXtcclxuICAgIGhlaWdodDogNzBweDtcclxuICAgIHdpZHRoOiAxMDVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMzYwcHg7XHJcbiAgICBsZWZ0OiAzOTVweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDQwcHg7XHJcbn1cclxuLktoYXJraXZ7XHJcbiAgICBoZWlnaHQ6IDgwcHg7XHJcbiAgICB3aWR0aDogODBweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMTMwcHg7XHJcbiAgICBsZWZ0OiA0ODBweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLkx1aGFuc2t7XHJcbiAgICBoZWlnaHQ6IDEwMHB4O1xyXG4gICAgd2lkdGg6IDUwcHg7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDE1MHB4O1xyXG4gICAgbGVmdDogNTgwcHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtMzBkZWcpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxufVxyXG4uRG9uZXRza3tcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjAwcHg7XHJcbiAgICBsZWZ0OiA1NDBweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XHJcbn1cclxuLk9kZXNzYS1Ob3J0aHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICB3aWR0aDogNDBweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMjUwcHg7XHJcbiAgICBsZWZ0OiAyODBweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtMzBkZWcpO1xyXG59XHJcbi5PZGVzc2EtU291dGh7XHJcbiAgICBoZWlnaHQ6IDgwcHg7XHJcbiAgICB3aWR0aDogNDBweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMzQwcHg7XHJcbiAgICBsZWZ0OiAyNTBweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDMwcHg7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzMGRlZyk7XHJcbn0iXX0= */
